@@ -14,4 +14,8 @@ This project was created for social computing class as a design/engineering appr
 
 
 ### Project Processs
-
+Design questionnaire
+Design website
+Do survey
+Collect data
+Data analysis
