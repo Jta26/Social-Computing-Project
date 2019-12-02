@@ -7,16 +7,13 @@ header {
     width: 90%;
     margin: auto;
 
-    padding: 20px;
     display: flex;
     border-bottom: 1px solid black;;
 
     
 }
 header .logo {
-    width: 10%;
-    padding-right: 50px;
-
+    width: 300px;
 }
 header .logo img {
     width: 200px;
@@ -24,11 +21,11 @@ header .logo img {
 
 header .search {
     width: 900px;
-    padding-top: 100px;
+    padding-top: 50px;
     
 }
 header .search input {
-    width: 50%;
+    width: 400px;
     font-size: 1.5em;
     border-radius: 5px;
     border: 1px solid black;
@@ -36,7 +33,7 @@ header .search input {
 }
 header .search img {
 
-    width: 3%;
+    width: 20px;
 }
 
 .store {
@@ -53,6 +50,9 @@ header .search img {
     width: 70%;
 
 }
+.store-item:hover {
+    text-decoration: underline;
+}
 .store-item .img {
     width: 250px;
 }
@@ -65,4 +65,38 @@ header .search img {
 }
 .store-item .content h1 {
     font-size: 1.5em;
+}
+
+.store-item .content .rating {
+    display: flex;
+    padding-bottom: 10px;
+}
+.store-item .content .rating .star {
+    width: 25px;
+}
+.store-item .content .desc:hover {
+    text-decoration: none;
+}
+
+
+.trackerNotificationA {
+    position: fixed;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+    background-color: #CF1717;
+}
+.trackerNotificationA h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+.trackerNotificationA button {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 2em;
+    background-color:#00c853;
+    padding: 10px;
+    float: right;
+    margin-right: 100px;
 }
