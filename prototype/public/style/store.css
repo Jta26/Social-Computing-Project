@@ -80,7 +80,7 @@ header .search img {
 
 .finish {
     position: fixed;
-    right:50px;
+    right:10px;
     top: 50px;
 }
 .finish button {

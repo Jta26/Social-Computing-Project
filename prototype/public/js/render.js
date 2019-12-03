@@ -26,6 +26,7 @@ var products = [
     // {"title":, "img":, "price":, "rating", "desc":},
 ];
 
+var surveyType = "old";
 
 
 var productList = document.querySelector('.store');
@@ -69,11 +70,13 @@ function createProductElement(product) {
     imgContainer.appendChild(img);
 
 
-    newProductElement.addEventListener('click', function() {
+    newProductElement.addEventListener('click', async function() {
         //Sets current selected item in localstorage
         localStorage.setItem('currentProduct', JSON.stringify(product));
         AcceptATracker();
+        await uploadFirebaseClick(product)
         window.location = '/item.html';
+
     });
     newProductElement.append(imgContainer, contentContainer);
     return newProductElement;
