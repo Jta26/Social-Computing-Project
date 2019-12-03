@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./style/item.css">
+    <link rel="stylesheet" href="./style/trackers.css">
+    <link rel="stylesheet" href="./style/modal.css">
     <title>Document</title>
 </head>
 <body>
@@ -31,6 +33,28 @@
             <button class='item addCart'>Add To Cart</button>
         </div>
     </div>
+    <div class='trackerNotificationA'>
+        <img class='trackerXButton' src='./img/X.png'/>
+        <h1>Hello There! We use Cookies and other trackers to provide you with the best experience on our website!</h1>
+        <p>By Continuing to use this site, you agree to accept our trackers.</p>
+        <div>
+            <p>Learn More</p>
+            <button class='ATrackerAcceptButton'>I Agree</button>
+        </div>
+    </div>
+    <div class='modalBackdrop'>
+            <div class='surveyModal'>
+                <h2>Thanks for helping us out! Click below to finish a brief survey.</h2>
+                <h3 style='padding-top: 10px;'>Please record this number and enter it on the survey.</h3>
+                <h3 class='IdField'>Your ID Number is: </h3>
+                <button onclick='window.location = "https://docs.google.com/forms/d/e/1FAIpQLSd32y-jjouWtlJKsyigsFrbpwDHS4EhJ-MWQhoFRT_9yGYHkw/viewform"'>Go To Survey</button>
+            </div>
+        </div>
+        <div class='finish'>
+            <button onclick="displayModal()">I'm Finished</button>
+        </div>
     <script src='./js/item.js'></script>
+    <script src='./js/trackers.js'></script>
+    <script src='./js/survey.js'></script>
 </body>
 </html>

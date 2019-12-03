@@ -78,25 +78,17 @@ header .search img {
     text-decoration: none;
 }
 
-
-.trackerNotificationA {
+.finish {
     position: fixed;
-    bottom: 0;
-    height: 200px;
-    width: 100%;
-    background-color: #CF1717;
+    right:50px;
+    top: 50px;
 }
-.trackerNotificationA h1 {
-    margin-top: 20px;
-    margin-left: 20px;
-    color: white;
-}
-.trackerNotificationA button {
+.finish button {
     border: 1px solid black;
     border-radius: 10px;
-    font-size: 2em;
+    font-size: 1.5em;
     background-color:#00c853;
     padding: 10px;
-    float: right;
     margin-right: 100px;
+    height: 50px;
 }

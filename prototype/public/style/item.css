@@ -41,10 +41,10 @@ header .search img {
     padding: 100px;
 }
 .item-container .item-img-container {
-    width: 800px;
+    width: 500px;
 }
 .item-container .item-img-container img {
-    width: 800px;
+    width: 500px;
 }
 
 .item-container .item-content-container {
@@ -77,4 +77,19 @@ header .search img {
 .item-container .item-content-container button:hover {
     transform: scale(1.1);
     
+}
+
+.finish {
+    position: fixed;
+    right:50px;
+    top: 50px;
+}
+.finish button {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1.5em;
+    background-color:#00c853;
+    padding: 10px;
+    margin-right: 100px;
+    height: 50px;
 }
