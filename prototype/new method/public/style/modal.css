@@ -1,0 +1,101 @@
+
+.modalBackdrop {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0vw;
+    left:0vh;
+    background-color: rgba(30, 30, 30, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.surveyModal {
+    position: absolute;
+    top: 30vh;
+    left: 50vh;
+    background-color: white;
+    width: 50vw;
+    height: 20vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.surveyModal button {
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 2em;
+    padding: 10px;
+    background-color:#00c853;
+}
+
+
+.IDmodalBackdrop {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0vw;
+    left:0vh;
+    background-color: rgba(30, 30, 30, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.IDModal {
+    position: absolute;
+    top: 30vh;
+    left: 50vh;
+    background-color: white;
+    width: 50vw;
+    height: 20vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.IDModal input {
+    font-size: 2em;
+}
+.IDModal button {
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 2em;
+    padding: 10px;
+    background-color:#00c853;
+}
+
+.trackingModalBackdrop {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0vw;
+    left:0vh;
+    background-color: rgba(30, 30, 30, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.trackingModal {
+    position: absolute;
+    top: 30vh;
+    left: 50vh;
+    background-color: white;
+    width: 30vw;
+    height: 50vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.trackingModal button {
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 2em;
+    padding: 10px;
+    background-color:#00c853;
+}

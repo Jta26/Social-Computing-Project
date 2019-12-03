@@ -1,0 +1,19 @@
+.trackerNotificationB {
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    width: 50px;
+    background-color: #00c853;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .3s ease;
+    display: none;
+}
+.trackerNotificationB img {
+    width: 100%;
+}
+.trackerNotificationB:hover {
+    transform: scale(1.3);
+}
